@@ -99,6 +99,50 @@ nav ul {
 .top-container {
     width: 100%;
     height: 15%;
+    padding-top: 20px;
+    color: black;
+}
+
+.top-container h1 {
+    font-size: 40px;
+}
+
+.top-container h4 {
+    color: rgba(128, 128, 128, 0.5);
+}
+
+.immagine-col {
+    background-size: cover;
+    background-position: 100% 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.immagine-sinistra {
+    background-image: url(../img/img-1.jpg);
+}
+
+.immagine-centrale {
+    background-image: url(../img/banner-2.jpg);
+}
+
+.immagine-destra {
+    background-image: url(../img/img-3.jpg);
+}
+
+.titolo-colonna {
+    margin: 20px 0px 10px;
+    font-size: 18px;
+    color: rgba(3, 3, 3, 0.5);
+}
+
+.testo-colonne {
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.5);
 }
 
 .colonna-sinistra, .colonna-destra {
@@ -135,20 +179,20 @@ nav ul {
     background-color: burlywood;
 } */
 
-main div.debug {
+/* main div.debug {
     background-color: darkblue;
-}
+} */
 
-.main-container.debug {
+/* .main-container.debug {
     height: 700px;
-}
+} */
 
-div .top-container.debug,
-div .colonna-sinistra.debug,
+/* div .top-container.debug, */
+/* div .colonna-sinistra.debug,
 div .colonna-destra.debug,
 div .colonna-centrale.debug {
     background-color: darkcyan;
-}
+} */
 
 .footer-container.debug {
     background-color: darkmagenta;
