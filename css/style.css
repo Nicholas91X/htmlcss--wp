@@ -82,14 +82,16 @@ nav ul {
     left: 5%;
 }
 
-.testo-jumbotron h2 {
+.testo-jumbotron div:first-child {
     font-size: 30px;
     color: seashell;
 }
 
-.testo-jumbotron h4 {
+.testo-jumbotron div:last-child {
+    font-size: 18px;
     color: seashell;
 }
+
 
 /* main */
 .main-container {
@@ -103,12 +105,14 @@ nav ul {
     color: black;
 }
 
-.top-container h1 {
+.top-container div:first-child {
     font-size: 40px;
+    font-weight: 800;
 }
 
-.top-container h4 {
+.top-container div:last-child {
     color: rgba(128, 128, 128, 0.5);
+    font-weight: 700;
 }
 
 .immagine-col {
