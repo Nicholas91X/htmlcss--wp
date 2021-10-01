@@ -170,6 +170,17 @@ nav ul {
     height: 75px;
 }
 
+footer div {
+    font-size: 15px;
+    text-align: center;
+    line-height: 75px;
+}
+
+footer div span {
+    color: red;
+    font-size: 20px;
+}
+
 /* debug */
 /* header .debug {
     background-color: blueviolet;
@@ -194,6 +205,6 @@ div .colonna-centrale.debug {
     background-color: darkcyan;
 } */
 
-.footer-container.debug {
+/* .footer-container.debug {
     background-color: darkmagenta;
-}
+} */
